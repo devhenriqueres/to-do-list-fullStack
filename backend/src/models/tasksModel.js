@@ -14,7 +14,7 @@ try {
 
   let query = 'INSERT INTO tasks (title, status, created_at) VALUES (?, ?, ?)';
 
-  const createdTask = await connection.execute(query, [title, 'pendente', dateUTC]);
+  const createdTask = await connection.execute(query, [title, 'Pending', dateUTC]);
 
   const insertId = createdTask[0].insertId;
 

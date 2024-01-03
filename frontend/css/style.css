@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: #666666;
+  color: whitesmoke;
+}
+
+main {
+  background-color: #4b4b4b;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px #538c877c;
+}
+
+.add-form {
+  display: flex;
+  margin-bottom:50px ;
+  gap: 15px;
+  width: 95%;
+}
+
+input {
+  width: 100%;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #538c877c;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+button[type="submit"] {
+  background-color: #666666;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 10px 15px;
+  border: 1px solid #58a7c977;
+  text-align: center;
+}
+
+td {
+  color: rgba(245, 245, 245, 0.801);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #666666;
+}
+
+select {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700px;
+  background-color: #58a7c977;
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+select:hover {
+  background-color: #58a7c94f;
+}
+
+.btn-action {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: whitesmoke;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-action:nth-child(1) {
+  background-color: #58a7c9;
+  margin-right: 5px;
+}
+
+.btn-action:nth-child(2) {
+  background-color: #f4736c;
+}
